@@ -21,10 +21,15 @@ azure-ai-inference==1.0.0b9
 azure-search-documents 
 azure-ai-evaluation
 
+BeautifulSoup4
+pandas
+
 opentelemetry-exporter-otlp-proto-grpc
 
 # Testing tools
 pytest>=8.2,<9  # Compatible version for pytest-asyncio
 pytest-asyncio==0.24.0
 pytest-cov==5.0.0
+
+
 

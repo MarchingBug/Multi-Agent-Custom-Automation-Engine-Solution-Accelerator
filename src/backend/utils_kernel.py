@@ -97,6 +97,7 @@ async def get_agents(session_id: str, user_id: str) -> Dict[str, Any]:
             AgentType.HUMAN: HumanAgent.__name__,
             AgentType.PLANNER: PlannerAgent.__name__,
             AgentType.GROUP_CHAT_MANAGER: GroupChatManager.__name__,
+            AgentType.DOCUMENT: DocumentAgent.__name__  # Assuming DocumentAgent is defined elsewhere
         }
 
         # Convert to the agent name dictionary format used by the rest of the app
